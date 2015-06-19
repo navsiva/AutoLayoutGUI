@@ -14,6 +14,7 @@
 		92F4932A1B32156200BA27B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F493291B32156200BA27B6 /* Images.xcassets */; };
 		92F4932D1B32156200BA27B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F4932B1B32156200BA27B6 /* LaunchScreen.xib */; };
 		92F493391B32156200BA27B6 /* AutoLayoutGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F493381B32156200BA27B6 /* AutoLayoutGUITests.m */; };
+		92F493421B3216CD00BA27B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F493261B32156200BA27B6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F493421B3216CD00BA27B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +354,7 @@
 				INFOPLIST_FILE = AutoLayoutGUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -362,6 +365,7 @@
 				INFOPLIST_FILE = AutoLayoutGUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
